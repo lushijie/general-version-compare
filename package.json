@@ -1,6 +1,6 @@
 {
   "name": "general-version-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "general version compare(通用类库比较)",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "version",
     "compare"
   ],
-  "author": "wd4blue",
-  "license": "ISC",
+  "author": "wd4blue<lushijie1218@126.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wd4blue/general-version-compare/issues"
   },
