@@ -2,7 +2,7 @@
 * @Author: lushijie
 * @Date:   2016-10-13 14:38:20
 * @Last Modified by:   lushijie
-* @Last Modified time: 2016-10-13 14:53:07
+* @Last Modified time: 2016-10-13 17:39:03
 */
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -14,8 +14,8 @@
     }
 }(this, function () {
     return function compareVersion(a, b){
-        var p1 = a.match(/[a-zA-Z]+|[0-9]+/g);
-        var p2 = b.match(/[a-zA-Z]+|[0-9]+/g);
+        var p1 = JSON.stringify(a).match(/[a-zA-Z]+|[0-9]+/g);
+        var p2 = JSON.stringify(b).match(/[a-zA-Z]+|[0-9]+/g);
         var maxLength = Math.max(p1.length, p2.length);
         for(var i = 0; i < maxLength; i++ ) {
             p1[i] = /^\d*$/.test(p1[i]) ? parseInt(p1[i]) : p1[i];

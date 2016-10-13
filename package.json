@@ -4,7 +4,7 @@
   "description": "general version compare(通用类库比较)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wd4blue/general-version-compare/issues"
   },
-  "homepage": "https://github.com/wd4blue/general-version-compare#readme"
+  "homepage": "https://github.com/wd4blue/general-version-compare#readme",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
 }
