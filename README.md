@@ -10,6 +10,14 @@ Install with `npm`:
 $ npm install general-version-compare --save
 ```
 
+
+## &lt;script />
+
+You can simply include general-version-compare like this:
+```html
+<script src='[path of index.js]'></script>
+```
+
 ## Usage
 
 ```javascript
@@ -40,3 +48,7 @@ Outputs:
     '1.2.3'
 ]
 ```
+
+## License
+
+MIT
