@@ -15,7 +15,7 @@ $ npm install general-version-compare --save
 ## Usage
 
 ```javascript
-var compareVersions = require('general-version-compare');
+var compareVersion = require('general-version-compare');
 compareVersion('10.1.8', '10.0.4');              // -1
 compareVersion('1.0.0rc10', '1.0.0rc12');        //  1
 compareVersion('1.3.0-beta.17', '1.3.0-beta.1'); //-1
@@ -30,7 +30,7 @@ var versions = [
     '1.2.3',
     '1.5.5',
 ];
-console.log(versions.sort(compareVersions));
+console.log(versions.sort(compareVersion));
 ```
 
 Outputs:
