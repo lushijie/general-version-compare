@@ -1,6 +1,6 @@
 {
   "name": "general-version-compare",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "general version compare(通用类库比较)",
   "main": "index.js",
   "scripts": {
