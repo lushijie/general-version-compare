@@ -1,5 +1,7 @@
 # general-version-compare
 
+[![Join the chat at https://gitter.im/general-version-compare/Lobby](https://badges.gitter.im/general-version-compare/Lobby.svg)](https://gitter.im/general-version-compare/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![build status](https://secure.travis-ci.org/wd4blue/general-version-compare.png)](http://travis-ci.org/wd4blue/general-version-compare)
 
 在开发 [360静态资源库](https://cdn.baomitu.com) 时需要进行版本排序，但是[compare-versions](https://github.com/omichelsen/compare-versions) 不能满足要求，因为有的版本不符合 [semver规范](http://semver.org/#spec-item-9) (如 angular.js 的版本 1.0.0rc9)，所以写了一个通用的版本比较，测试使用了[compare-versions](https://github.com/omichelsen/compare-versions)的测试用例 (具体测试情况，请查看test/compare.js中注解)。
