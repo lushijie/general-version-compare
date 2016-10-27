@@ -2,6 +2,7 @@
 
 [![build status](https://secure.travis-ci.org/wd4blue/general-version-compare.png)](http://travis-ci.org/wd4blue/general-version-compare)
 [![download/month](https://img.shields.io/npm/dm/general-version-compare.svg)](https://img.shields.io/npm/dm/general-version-compare.svg)
+[![license](https://img.shields.io/npm/l/general-version-compare.svg)](https://img.shields.io/npm/l/general-version-compare.svg)
 
 在开发 [360静态资源库](https://cdn.baomitu.com) 时需要进行版本排序，但是[compare-versions](https://github.com/omichelsen/compare-versions) 不能满足要求，因为有的版本不符合 [semver规范](http://semver.org/#spec-item-9) (如 angular.js 的版本 1.0.0rc9)，所以写了一个通用的版本比较，测试使用了[compare-versions](https://github.com/omichelsen/compare-versions)的测试用例 (具体测试情况，请查看test/compare.js中注解)。
 
