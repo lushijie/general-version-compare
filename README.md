@@ -1,5 +1,7 @@
 # general-version-compare
 
+[![Join the chat at https://gitter.im/general-version-compare/Lobby](https://badges.gitter.im/general-version-compare/Lobby.svg)](https://gitter.im/general-version-compare/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![build status](https://secure.travis-ci.org/wd4blue/general-version-compare.png)](http://travis-ci.org/wd4blue/general-version-compare)
 [![download/month](https://img.shields.io/npm/dm/general-version-compare.svg)](https://img.shields.io/npm/dm/general-version-compare.svg)
 [![license](https://img.shields.io/npm/l/general-version-compare.svg)](https://img.shields.io/npm/l/general-version-compare.svg)
