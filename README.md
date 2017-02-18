@@ -1,6 +1,6 @@
 # general-version-compare
 
-[![build status](https://secure.travis-ci.org/wd4blue/general-version-compare.png)](http://travis-ci.org/wd4blue/general-version-compare)
+[![build status](https://secure.travis-ci.org/lushijie/general-version-compare.png)](http://travis-ci.org/lushijie/general-version-compare)
 [![download/month](https://img.shields.io/npm/dm/general-version-compare.svg)](https://img.shields.io/npm/dm/general-version-compare.svg)
 [![license](https://img.shields.io/npm/l/general-version-compare.svg)](https://img.shields.io/npm/l/general-version-compare.svg)
 

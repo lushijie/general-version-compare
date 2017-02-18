@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wd4blue/general-version-compare.git"
+    "url": "git+https://github.com/lushijie/general-version-compare.git"
   },
   "keywords": [
     "version",
     "compare"
   ],
-  "author": "wd4blue<lushijie1218@126.com>",
+  "author": "lushijie<lushijie1218@126.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wd4blue/general-version-compare/issues"
+    "url": "https://github.com/lushijie/general-version-compare/issues"
   },
-  "homepage": "https://github.com/wd4blue/general-version-compare#readme",
+  "homepage": "https://github.com/lushijie/general-version-compare#readme",
   "dependencies": {
     "mocha": "^3.1.2"
   }
